@@ -1,0 +1,101 @@
+{
+  "SKILL_NAME": "Modelo de MVP Qsaude",
+  "WELCOME": [
+    "Bem-vindo a {}. Para começar a enviar mensagens, você precisa salvar o número de telefone do destinatário como um contato. Diga-me um número de telefone que deseja salvar."
+  ],
+  "WELCOME_REPROMPT": [
+    "Por favor, diga-me um número de telefone que você gostaria de salvar."
+  ],
+  "WELCOME_BACK": [
+    "Bem-vindo a {}. Deseja salvar um novo contato ou enviar uma mensagem de texto?"
+  ],
+  "WELCOME_BACK_REPROMPT": [
+    "Gostaria de salvar um novo contato ou enviar uma mensagem de texto?"
+  ],
+  "PHONE_NUMBER_CONFIRMED": [
+    "OK. Qual é o nome do contato?",
+    "OK. Como devo nomear este contato?",
+    "OK. Por qual nome devo salvar este contato?"
+  ],
+  "PHONE_NUMBER_CONFIRMED_REPROMPT": [
+    "Qual é o nome do contato?"
+  ],
+  "PHONE_NUMBER_UNCONFIRMED": [
+    "Não consegui entender o número do telefone. Você pode repetir?"
+  ],
+  "PHONE_NUMBER_UNCONFIRMED_REPROMPT": [
+    "Por favor, repita o número de telefone que deseja salvar."
+  ],
+  "CONTACT_SAVED": [
+    "Obrigado. Salvei com sucesso o contato e agora você pode enviar mensagens para ele. O que você gostaria de fazer? Salvar outro contato ou enviar uma nova mensagem? "
+  ],
+  "CONTACT_SAVED_REPROMPT": [
+      "Deseja salvar outro contato ou enviar uma nova mensagem?"
+  ],
+  "CONTACT_NOT_SAVED": [
+    "Desculpe, não consegui entender o nome. Você pode repetir?"
+  ],
+  "CONTACT_NOT_SAVED_REPROMPT": [
+    "Por favor, repita o nome do contato."
+  ],
+  "SAVE_NEW_CONTACT": [
+    "Claro. Por favor, me diga o número de telefone que você deseja salvar."
+  ],
+  "SAVE_NEW_CONTACT_REPROMPT": [
+    "Diga-me o número de telefone que deseja salvar."
+  ],
+  "SEND_TEXT_MESSAGE": [
+    "OK. Por favor, diga-me a mensagem."
+  ],
+  "SEND_TEXT_MESSAGE_REPROMPT": [
+    "Qual é a sua mensagem?"
+  ],
+  "MESSAGE_RECEIVED": [
+    "Para quem você gostaria de enviar esta mensagem?"
+  ],
+  "MESSAGE_RECEIVED_REPROMPT": [
+    "Por favor, especifique um nome de sua lista de contatos para enviar a mensagem."
+  ],
+  "ERROR_WITH_MESSAGE": [
+    "Não entendi a mensagem. Você pode repetir? "
+  ],
+  "ERROR_WITH_MESSAGE_REPROMPT": [
+    "Você pode repetir a mensagem?"
+  ],
+  "MESSAGE_SENT": [
+    "Enviei sua mensagem com sucesso. O que você gostaria de fazer agora?"
+  ],
+  "MESSAGE_SENT_REPROMPT": [
+    "O que você gostaria de fazer agora?"
+  ],
+  "CONTACT_NOT_FOUND": [
+    "Desculpe, não consegui encontrar nenhum contato com esse nome. Forneça um nome de contato válido."
+  ],
+  "CONTACT_NOT_FOUND_REPROMPT": [
+    "Forneça um nome de contato válido."
+  ],
+  "MESSAGE_NOT_SENT": [
+    "Desculpe, ocorreu um erro ao tentar enviar a mensagem. Especifique o nome do contato novamente para continuar."
+  ],
+  "MESSAGE_NOT_SENT_REPROMPT": [
+    "Por favor, especifique o nome do contato novamente para continuar."
+  ],
+  "HELP": [
+    "Este é o prompt de ajuda."
+  ],
+  "HELP_REPROMPT": [
+    "Este é o pedido de ajuda."
+  ],
+  "FALLBACK": [
+    "Desculpe, eu não entendi isso. Você pode repetir?"
+  ],
+  "FALLBACK_REPROMPT": [
+    "Você pode repetir?"
+  ],
+  "CANCEL_STOP_RESPONSE": [
+    "Xau",
+    "Tudo bem. Eu estarei aqui se você precisar de mim."
+  ],
+  "ERROR": "Desculpe, não fui capaz de atender ao seu último pedido. Você poderia dizer isso de novo?",
+  "ERROR_REPROMPT": "Pode dizer aquilo de novo?"
+}

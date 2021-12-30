@@ -1,0 +1,146 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "qsaude skill",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyMessageIsIntent",
+                    "slots": [
+                        {
+                            "name": "message_text",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "diga a ela {message_text}",
+                        "diga a ele {message_text}",
+                        "minha mensagem é que {message_text}",
+                        "aqui está a mensagem {message_text}",
+                        "o texto da mensagem é {message_text}",
+                        "envie a mensagem {message_text}",
+                        "a mensagem é {message_text}",
+                        "a mensagem é {message_text}",
+                        "minha mensagem é {message_text}"
+                    ]
+                },
+                {
+                    "name": "ChooseContactIntent",
+                    "slots": [
+                        {
+                            "name": "recipient_name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "envie essa mensagem para {recipient_name}",
+                        "enviar para {recipient_name}",
+                        "enviar mensagem para {recipient_name}",
+                        "para {recipient_name}",
+                        "envie a mensagem para {recipient_name}",
+                        "enviar para {recipient_name}"
+                    ]
+                },
+                {
+                    "name": "SaveNewContactIntent",
+                    "slots": [],
+                    "samples": [
+                        "salve outro",
+                        "salvar outro número de telefone",
+                        "salvar outro contato",
+                        "adicionar novo contato à lista telefônica",
+                        "adicionar outro número de telefone",
+                        "adicionar novo número de telefone",
+                        "adicionar novo contato ao banco de dados",
+                        "adicionar um novo contato à lista",
+                        "Quero adicionar um novo contato",
+                        "Adicionar novo contato",
+                        "adicionar um novo contato",
+                        "salvar novo contato"
+                    ]
+                },
+                {
+                    "name": "SendTextMessageIntent",
+                    "slots": [],
+                    "samples": [
+                        "enviar uma nova mensagem",
+                        "Eu quero enviar uma mensagem",
+                        "enviar mensagem de texto",
+                        "enviar um s. m. s.",
+                        "envie uma mensagem",
+                        "Eu quero enviar uma mensagem"
+                    ]
+                },
+                {
+                    "name": "PhoneNumberIsIntent",
+                    "slots": [
+                        {
+                            "name": "phone_number",
+                            "type": "AMAZON.PhoneNumber"
+                        }
+                    ],
+                    "samples": [
+                        "o numero é {phone_number}",
+                        "{phone_number}",
+                        "o numero de contato é {phone_number}",
+                        "o numero é {phone_number}",
+                        "o numero de telefone é {phone_number}"
+                    ]
+                },
+                {
+                    "name": "TheNameIsIntent",
+                    "slots": [
+                        {
+                            "name": "contact_name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "nomear como {contact_name}",
+                        "o nome do contato é {contact_name}",
+                        "é {contact_name}",
+                        "nome é {contact_name}",
+                        "o nome do contato é {contact_name}",
+                        "salve-o com o nome {contact_name}",
+                        "o nome dela é {contact_name}",
+                        "o nome dele é {contact_name}",
+                        "o nome é {contact_name}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
